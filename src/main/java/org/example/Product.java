@@ -49,11 +49,6 @@ public class Product implements IProduct {
     }
 
     @Override
-    public boolean requiresShipping() {
-        return false;
-    }
-
-    @Override
     public int hashCode() {
         return name.hashCode();
     }

@@ -10,6 +10,4 @@ public interface IProduct {
     int updateQuantity(int amount);
 
     boolean isExpired();
-
-    boolean requiresShipping();
 }
